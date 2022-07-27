@@ -16,7 +16,7 @@ function InputSample() {
       <input onChange={onChange} value={text}  />
       <button onClick={onReset}>초기화</button>
       <div>
-        <b>값: {text}</b>
+        <b>값:asdasd {text}</b>
       </div>
     </div>
   );
