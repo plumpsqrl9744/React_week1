@@ -1,0 +1,33 @@
+.containers {
+    max-width : 1200px  ;
+    min-width : 800px   ;
+    display : flex   ;
+    justify-content : center;
+    align-items : center;
+  }
+  
+  .headerTitleContainer {
+    padding-top : 15px;
+    padding-bottom : 15px;
+    width : 100%;
+    max-width : 1200px  ;
+    min-width : 800px   ;
+    background-color :  white ;
+    border : 1px solid gray ;
+    display: flex;
+  }
+  .headerTitle1 {
+    margin-left: 2%;
+    min-width : 48%;
+    text-align: left;
+    font-weight: bold;
+    font-size : 35px;
+  }
+
+  .headerTitle2 {
+    margin-right: 5%;
+    min-width : 48%;
+    text-align: right;
+    font-weight: bold;
+    font-size : 35px;
+  }

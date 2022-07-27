@@ -1,0 +1,33 @@
+.todo-container {
+    width: 250px;
+    /* height: 150px; */
+    border: 3px solid rgb(2, 114, 108);
+    border-radius: 10px;
+    padding: 15px 30px 30px 30px;
+  }
+
+  .todo-title {
+    font-weight: bold;
+  }
+
+  .button-box{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .todo-del-button {
+    margin-left: 6%;
+    border: 3px solid red;
+    border-radius: 10px;
+    background-color: #fff;
+    height: 40px;
+    width : 100px;
+}
+.todo-done-button {
+    border: 3px solid green;
+    border-radius: 10px;
+    background-color: #fff;
+    height: 40px;
+    width : 100px;
+}

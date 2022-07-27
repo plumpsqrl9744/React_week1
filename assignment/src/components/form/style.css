@@ -1,0 +1,44 @@
+.add-todo {
+    background-color: rgb(183, 183, 183);
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 30px;
+    gap: 20px;
+  }
+  
+  .form-label {
+      font-size: large;
+      font-weight: bold;
+      margin-right: 10px;
+      margin-left: 10px;
+  }
+  
+  .input-title {
+    height: 50px;
+    width: 240px;
+    border: none;
+    border-radius: 12px;
+    padding: 0 12px;
+  }
+  
+  .input-contens {
+    height: 50px;
+    width: 240px;
+    border: none;
+    border-radius: 12px;
+    padding: 0 12px;
+  }
+  
+  .add-button {
+      border: none;
+      height: 50px;
+      border-radius: 10px;
+      background-color: rgb(2, 114, 108);
+      width: 150px;
+      color: #fff;
+      font-weight: bold;
+      margin-left: 26%;
+  }
